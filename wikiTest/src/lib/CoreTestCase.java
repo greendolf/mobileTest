@@ -10,7 +10,7 @@ import java.net.URL;
 public class CoreTestCase extends TestCase {
     public AppiumDriver driver;
     public static String AppiumURL = "http://localhost:4723/wd/hub";
-    DesiredCapabilities capabilities = new DesiredCapabilities();
+    //DesiredCapabilities capabilities = new DesiredCapabilities();
 
     @Override
     protected void setUp() throws Exception {
